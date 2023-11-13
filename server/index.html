@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+    <link rel="stylesheet" href="indesx.css">
+</head>
+<body>
+    <div class="form-container">
+        <form id="customerForm" action="/submit-form" method="post">
+            <h2>Cadastro de Cliente</h2>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="address">Endereço:</label>
+                <input type="text" id="address" name="address">
+            </div>
+            <button type="alert">Cadastrar</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
