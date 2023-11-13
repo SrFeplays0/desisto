@@ -12,4 +12,5 @@ document.getElementById('customerForm').addEventListener('submit', function(e) {
     console.log('Telefone:', phone);
     console.log('Endereço:', address);
 
+    alert('Conta cadastrada!!')
 });
